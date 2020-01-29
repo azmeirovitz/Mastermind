@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<script src="http://code.jquery.com/jquery-3.1.0.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="mastermind.js"></script>
+ </head>   
+ <body>
+
+    <h1 style = "text-align: center; background-color: yellow">WELCOME TO MASTERMIND</h1>
+
+    <h3 id="h3" style = "text-align: center; background-color: aqua; width: 40%; margin-left: 30%">Click here for the RULES of the game</h3>
+	
+    
+
+
+<section class="gameOptions" id="gameOptions" style = "width: 55%; display: inline-block">
+ 
+	<div class = "container" style="margin-top: 5%; font-size: 20px">
+		<div class="youGuess" style="color: yellow; text-align: center; padding: 15px 36px 15px 36px; background-color: blue; display: inline-block" >Click here to start the game			
+		</div>
+
+		
+
+		<!-- DOM Creation: -->
+
+		<!-- <div style="display: inline-block">
+			Your Record: __ turns/game
+		</div>
+
+		<div style="display: inline-block">
+			Turns in this game: __
+		</div> -->
+
+		<br>		
+	</div>
+
+	
+
+	<div class="gameArea">
+		
+		<div id="computerRandomCode"></div>
+		<div id="playerGuessesArea" style="width: 50%"></div>
+		<div id="message"></div>
+
+	</div>
+
+
+		
+</section>
+
+<aside style = "width: 45%; display: inline-block; position: fixed">
+	<select id="sort" style = "width: 50px">  
+		
+		<!-- <option value="" selected></option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option> -->
+
+	</select>
+
+	<button id="changeChoice">Correct My Guess</button>
+	<button id="checkGuess">Ready to check My Guess</button>
+	<br>
+	<div id="gameRules"></div>
+</aside>
+	
+
+	
+</body>
+</html>
